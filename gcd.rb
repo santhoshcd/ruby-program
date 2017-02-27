@@ -19,5 +19,11 @@ module Program
 	end
 end
 
+puts "Enter M and N"
+puts "Enter M"
+m = gets.chomp.to_i 
+puts "Enter N"
+n = gets.chomp.to_i 
 
-puts "GCD(10, 35) = #{Program.gcd(10, 35)}"
+
+puts "GCD(#{m}, #{n}) = #{Program.gcd(m, n)}"

@@ -8,23 +8,23 @@ module Program
         c = []
         while(i <= mid && j <= high)
             if(arr[i] < arr[j])
-                c[k] = arr[i];
+                c[k] = arr[i]
                 i += 1
             else
-                c[k] = arr[j];
+                c[k] = arr[j]
                 j += 1
             end
             k += 1
         end
         
         while(i <= mid)
-                c[k] = arr[i];
+                c[k] = arr[i]
                 k += 1
                 i += 1
         end
         
         while(j <= high)
-            c[k] = arr[j];
+            c[k] = arr[j]
             k += 1
             j += 1
         end

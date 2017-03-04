@@ -17,7 +17,6 @@ n = gets.chomp.to_i
 if (n>0)
     puts "Enter Array Elements"
     arr = []
-    big = 0
     for i in 0...n
         arr[i] = gets.chomp.to_i
     end

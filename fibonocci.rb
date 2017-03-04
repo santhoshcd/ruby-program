@@ -21,5 +21,5 @@ end
 
 puts "Enter a Number"
 n = gets.chomp.to_i
-puts "Factorial of #{n} is :#{Program.fibonocci(n)}"
+puts "Fibonocci(#{n}) value is :#{Program.fibonocci(n)}"
     
